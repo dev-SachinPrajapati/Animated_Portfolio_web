@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Hello!! I am Sachin Prajapati
           </p>
 
           <TextGenerateEffect
@@ -31,7 +31,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 mt-3 text-sm md:text-lg lg:text-xl">
-            Namaste!! I'm Sachin Prajapati, a MERN STACK DEVELOPER
+            MERN STACK Enthusiast and Software Developer
           </p>
 
           <Link href="#about">
