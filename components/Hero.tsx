@@ -26,12 +26,12 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experience"
+            words="Fresher SDE with a solid foundation in Development and DSA, ready to develop high-quality applications"
             className="text-center text-[40px] md:text-5xl lg:text-5xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 mt-3 text-sm md:text-lg lg:text-xl">
-            MERN STACK Enthusiast and Software Developer
+            Software Developer | SDE Fresher with Internship Experience in MERN, Next.js & Java Backend
           </p>
 
           <Link href="#about">

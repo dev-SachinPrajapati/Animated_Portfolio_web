@@ -12,11 +12,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Understand & Break Down Requirements"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Start by analyzing the problem or feature request. Break it down into smaller components, define user needs, and choose the right tools or architecture to solve it effectively."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +22,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Build, Iterate & Collaborate"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-             coding. From initial sketches to polished code, I keep you updated
-             every step of the way."
+          des="Write clean, maintainable code following best practices. Commit early and often, collaborate via Git, and adapt to feedback from team members and mentors."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,11 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Test, Optimize & Deliver"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-         I'll translate everything into functional code, building your website
-         from the ground up."
+          des="Test thoroughly, handle edge cases, optimize for performance, and deploy reliably. Continuously monitor and iterate post-launch based on real usage or feedback."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "About", link: "#about" },  // grid.jsx
+  { name: "About", link: "#about" }, // grid.jsx
   { name: "Projects", link: "#projects" }, // RecentProjects.tsx
-  { name: "Testimonials", link: "#testimonials" }, // Experience.jsx
+  { name: "Value", link: "#testimonials" }, // Experience.jsx
   { name: "Contact", link: "#contact" }, // Footer.jsx
 ];
 
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Adaptable Developer with a Growth Mindset",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -80,22 +80,47 @@ export const projects = [
   },
   {
     id: 2,
+    title: "CareerMind AI -  AI Career Coach",
+    des: "CareerMind AI is a cutting-edge AI-powered career coach designed to transform how users prepare for, pursue, and grow in their careers. Built with modern full stack technologies, CareerMind AI offers intelligent, personalized support across every stage of the job search.",
+    img: "/logopro.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
+    link: "https://github.com/dev-SachinPrajapati/CareerMind-AI",
+  },
+
+  {
+    id: 3,
+    title: "HireElite - Job Portal",
+    des: "HireElite is a modern job portal designed to seamlessly connect job seekers with employers. This full-stack web application streamlines job applications, employer job postings, and automated email notifications for relevant job opportunities.",
+    img: "/we1.png",
+    iconLists: ["/react.png", "/tail.svg", "/js.jpg", "/redux.png"],
+    link: "https://github.com/dev-SachinPrajapati/HireElite",
+  },
+
+  {
+    id: 4,
     title: "CarePlus- HealthCare Application",
-    des:     "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
+    des: "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
     img: "/hecare.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwr.png"],
     link: "https://github.com/dev-SachinPrajapati/Healthcare_Management",
   },
   {
-    id: 3,
+    id: 5,
     title: "Threads- Full Stack Application",
     des: "Develop Threads, Next.js 13 app that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever!",
     img: "/thread.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/rhf.png", "/mongo.png", "/zod.png"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/rhf.png",
+      "/mongo.png",
+      "/zod.png",
+    ],
     link: "https://github.com/dev-SachinPrajapati/Threads",
   },
   {
-    id: 4,
+    id: 6,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -107,41 +132,41 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Sachin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sachin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sachin is the ideal partner.",
+      "Adaptable, self-driven, and always eager to learn — I bring a problem-solving mindset and full-stack development experience from multiple real-world projects and internships.",
     name: "Sachin Prajapati",
-    title: "Software Engineer",
+    title: "Aspiring Software Development Engineer",
   },
   {
     quote:
-      "Collaborating with Sachin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sachin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sachin is the ideal partner.",
-    name: "Sachin Prajapati",
-    title: "Software Engineer",
+      "Great communication skills and a strong team player — known for contributing to both group projects and open collaboration efforts.",
+    name: "Personal Highlight",
+    title: "Team Collaboration",
   },
   {
     quote:
-      "Collaborating with Sachin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sachin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sachin is the ideal partner.",
-    name: "Sachin Prajapati",
-    title: "Software Engineer",
+      "I bring hands-on experience from real-world internships and full-stack projects — building scalable applications using the MERN stack, Next.js, and Java backends.",
+    name: "Why Hire Me?",
+    title: "Industry-Ready Skills",
+  },
+  {
+     quote:
+      "I adapt quickly to new tools and environments, thrive in fast-paced settings, and love learning from challenges — ideal traits for early-stage product teams.",
+    name: "Why Hire Me?",
+    title: "Growth Mindset",
   },
   {
     quote:
-      "Collaborating with Sachin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sachin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sachin is the ideal partner.",
-    name: "Sachin Prajapati",
-    title: "Software Engineer",
-  },
-  {
-    quote:
-      "Collaborating with Sachin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sachin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sachin is the ideal partner.",
-    name: "Sachin Prajapati",
-    title: "Software Engineer",
+      "Built and deployed production-ready full-stack applications using MERN, Next.js, and Java — with focus on performance, scalability, and clean code.",
+    name: "What I Bring",
+    title: "Full-Stack Development",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "React",
+    img: "/react.png",
     nameImg: "/cloudName.svg",
   },
   {
@@ -171,47 +196,54 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
+    {
     id: 1,
-    title: "Frontend Engineer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Development Intern – Engaze",
+    desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Backend Development",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", 
+    title: "Full Stack Developer Intern – Intellectsia AI Services",
+    desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
+];
+
+export const learningExperience = [
   {
-    id: 3,
-    title: "Software Engineer",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", 
+    id: 1,
+    title: "MERN Stack Projects & Learning",
+    desc: "Built real-world apps including collaborative editors, job portals, and healthcare dashboards using React, Node.js, MongoDB, and Next.js.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Learning MERN STACK",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 2,
+    title: "Self-Driven Product Development",
+    desc: "Designed and shipped full-stack projects like DocNest and CareerMind AI, applying system design and real-world problem-solving approaches.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
 
+
 export const socialMedia = [
-  {
+{
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/dev-SachinPrajapati", 
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/cnsimg.svg",
+    link: "https://www.naukri.com/code360/profile/57b94bcc-9d37-4680-866a-b519f4600d39", 
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/sachin-prajapati-it", 
   },
 ];
