@@ -10,7 +10,7 @@ import {
 import { useRef } from "react";
 import { cn } from "@/utils/cn";
 
-export function Button({
+function Button({
   borderRadius = "1.75rem",
   children,
   as: Component = "button",
@@ -137,3 +137,5 @@ export const MovingBorder = ({
     </>
   );
 };
+
+export default Button;

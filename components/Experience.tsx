@@ -2,7 +2,7 @@
 import React from "react";
 
 import { workExperience, learningExperience } from "@/data";
-import { Button } from "./ui/moving-border";
+import Button from "./ui/moving-border";
 import Image from "next/image"
 
 const Experience = () => {
