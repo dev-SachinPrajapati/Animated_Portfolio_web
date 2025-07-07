@@ -75,7 +75,7 @@ export const projects = [
     title: "DocNest- A Collaborative Application",
     des: "Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, DocNest is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact.",
     img: "/docnest.png",
-    iconLists: ["/re.svg", "/lb.jfif", "/le.png", "/shadcn.png"],
+    iconLists: ["/re.svg", "/liveblock.png", "/le.png", "/shadcn.png"],
     link: "https://github.com/dev-SachinPrajapati/DocNest",
   },
   {
