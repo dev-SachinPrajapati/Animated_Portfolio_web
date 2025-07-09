@@ -76,7 +76,7 @@ export const projects = [
     des: "Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, DocNest is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact.",
     img: "/docnest.png",
     iconLists: ["/re.svg", "/liveblock.png", "/le.png", "/shadcn.png"],
-    link: "https://github.com/dev-SachinPrajapati/DocNest",
+    link: "https://doc-nest-teal.vercel.app/",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "CareerMind AI is a cutting-edge AI-powered career coach designed to transform how users prepare for, pursue, and grow in their careers. Built with modern full stack technologies, CareerMind AI offers intelligent, personalized support across every stage of the job search.",
     img: "/logopro.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
-    link: "https://github.com/dev-SachinPrajapati/CareerMind-AI",
+    link: "https://career-mind-ai-pearl.vercel.app/",
   },
 
   {
@@ -93,7 +93,7 @@ export const projects = [
     des: "HireElite is a modern job portal designed to seamlessly connect job seekers with employers. This full-stack web application streamlines job applications, employer job postings, and automated email notifications for relevant job opportunities.",
     img: "/we1.png",
     iconLists: ["/react.png", "/tail.svg", "/js.jpg", "/redux.png"],
-    link: "https://github.com/dev-SachinPrajapati/HireElite",
+    link: "https://hire-elite-seven.vercel.app/",
   },
 
   {
@@ -102,7 +102,7 @@ export const projects = [
     des: "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
     img: "/hecare.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwr.png"],
-    link: "https://github.com/dev-SachinPrajapati/Healthcare_Management",
+    link: "https://carepulse-kohl-eight.vercel.app/",
   },
   {
     id: 5,
