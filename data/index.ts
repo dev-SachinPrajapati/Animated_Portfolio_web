@@ -195,22 +195,84 @@ export const companies = [
   },
 ];
 
+// export const workExperience = [
+//   {
+//     id: 1,
+//     title: "Frontend Developer Intern - Neuronetic Vision",
+//     desc: "Collaborated with frontend, backend, and AI teams to build and optimize web applications using Next.js and React; designed user interfaces in Figma, integrated APIs, and supported AWS-based deployments.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp2.svg",
+//   },
+//   {
+//     id: 2,
+//     title: "Full Stack Developer Intern - Intellectsia AI Services",
+//     desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp2.svg",
+//   },
+//     {
+//     id: 3,
+//     title: "Backend Development Intern - Engaze",
+//     desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp1.svg",
+//   },
+// ];
+
+
 export const workExperience = [
-    {
+  {
     id: 1,
-    title: "Backend Development Intern – Engaze",
-    desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
-    className: "md:col-span-2",
+    title: "Frontend Developer Intern - Neuronetic Vision",
+    company: "Neuronetic Vision",
+    companyLink: "https://www.linkedin.com/company/neuronetic-vision/", 
+    date: "July 2025 - Present",
+    type: "Remote",
+    desc: "Collaborated with frontend, backend, and AI teams to build and optimize web applications using Next.js and React; designed user interfaces in Figma, integrated APIs, and supported AWS-based deployments.",
+    responsibilities: [
+      "Built responsive UIs with Next.js and React",
+      "Worked closely with the AI team to integrate ML-based features",
+      "Collaborated with backend and AWS team for API integration & deployments",
+      "Created design prototypes in Figma and optimized UX"
+    ],
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Full Stack Developer Intern – Intellectsia AI Services",
-    desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    title: "Full Stack Developer Intern - Intellectsia AI Services",
+    company: "Intellectsia AI Services",
+    companyLink: "https://www.linkedin.com/company/intellectsia-ai-services/", 
+    date: "Dec 2024 - Jan 2025",
+    type: "Onsite",
+    desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance with caching strategies, designed and maintained database schemas, and collaborated with cross-functional teams to ensure scalable, secure, and responsive user experiences.",
+    // desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
+    responsibilities: [
+      "Designed and implemented RESTful APIs with Spring Boot",
+      "Enhanced SQL queries for performance optimization",
+      "Developed scalable UI components with Angular",
+      "Collaborated with cross-functional teams to deliver projects on time"
+    ],
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 3,
+    title: "Backend Development Intern - Engaze",
+    company: "Engaze",
+    companyLink: "https://www.linkedin.com/company/engaze-in/",
+    date: "Dec 2023 - Jan 2024",
+    type: "Remote",
+    desc: "Built and tested RESTful APIs using Node.js and Express.js; improved backend reliability through debugging and logging tools, implemented authentication and authorization mechanisms, and worked with frontend teams to ensure seamless API integration and performance.",
+    // desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
+    responsibilities: [
+      "Developed secure REST APIs with Node.js & Express",
+      "Implemented logging & debugging tools for backend stability",
+      "Wrote unit tests to ensure API reliability",
+      "Tested and documented APIs using Postman for QA and debugging"
+    ],
+    thumbnail: "/exp1.svg",
   },
 ];
+
 
 export const learningExperience = [
   {

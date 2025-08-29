@@ -22,13 +22,15 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take your <span className="text-purple">digital </span>
-          presence to the next level?
+          Looking for exciting <span className="text-purple">job opportunities </span> 
+          to grow and contribute?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
+          I'm eager to apply my skills in real-world projects and collaborate with 
+          innovative teams. Open to roles in frontend, backend, or full-stack 
+          development. 
+        </p> 
+
         <Link href="https://www.linkedin.com/in/sachin-prajapati-it/">
           <MagicButton
             title="Let's get in touch"
