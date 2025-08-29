@@ -26,7 +26,7 @@ const Footer = () => {
           to grow and contribute?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          I'm eager to apply my skills in real-world projects and collaborate with 
+          I&apos;m eager to apply my skills in real-world projects and collaborate with 
           innovative teams. Open to roles in frontend, backend, or full-stack 
           development. 
         </p> 
