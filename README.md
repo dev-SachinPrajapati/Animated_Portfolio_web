@@ -1,16 +1,71 @@
-# DocNest
+# Sachin Prajapati 
 
 [Live Demo](https://sachin-prajapati.vercel.app/)
 
-> A Google Docs–style collaborative editor built to showcase realtime features, a clean UI, and reusable architecture.
+
+# 👋 About Me
+
+Hi, I’m **Sachin Prajapati**, a passionate **Full-Stack Developer** from Mumbai, India.  
+I enjoy building **scalable web applications, real-time collaboration tools, and clean user experiences**.  
+Currently pursuing a **B.E. in Information Technology** with a **minor in Data Science**, I combine strong **CS fundamentals** with hands-on experience in modern web technologies.  
+
+🌐 Portfolio: [sachin-prajapati.vercel.app](https://sachin-prajapati.vercel.app/)  
+💼 LinkedIn: [linkedin.com/in/sachin-prajapati-it](https://www.linkedin.com/in/sachin-prajapati-it/)  
+💻 GitHub: [github.com/dev-SachinPrajapati](https://github.com/dev-SachinPrajapati)  
 
 ---
 
-## 👋 About Me
+## 🛠️ Skills
 
-Hi, I’m **Sachin Prajapati** — a Full-Stack Developer passionate about building **scalable web apps, real-time experiences, and clean UI/UX**.  
-💻 Skilled in **Next.js, TypeScript, Tailwind, Liveblocks, and modern web tools**.  
-🌐 Portfolio: [sachin-prajapati.vercel.app](https://sachin-prajapati.vercel.app/)
+**Languages & Frameworks:** JavaScript, TypeScript, Java, React, Next.js, Node.js, Express.js, Tailwind CSS, Redux, GSAP, Shadcn  
+**Databases & Tools:** MongoDB, MySQL, Git, GitHub, Postman, REST APIs, Figma, Vercel  
+**CS Fundamentals:** Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks, System Design  
+
+---
+
+## 💼 Experience
+
+**Frontend Developer Intern — Neuronetic Vision (Jul 2025 – Present)**  
+- Built the MVP of an AI-based surveillance platform using React & Next.js.  
+- Delivered responsive UI for the company’s first client-ready demo.  
+- Collaborated on AWS, CI/CD workflows, and scalable deployments.  
+
+**Full Stack Developer Intern — Intellectsia AI Services (Dec 2024 – Jan 2025)**  
+- Developed MVP platform with Angular, Spring Boot & MySQL.  
+- Implemented authentication, user flows, and backend services.  
+- Assisted in database schema and scalable backend architecture.  
+
+**Backend Developer Intern — Engaze (Dec 2023 – Jan 2024)**  
+- Built REST APIs with Node.js and validated with Postman.  
+- Debugged backend issues and enhanced system stability.  
+- Supported MVP development in a collaborative environment.  
+
+---
+
+## 🚀 Projects
+
+- **[DocNest](https://doc-nest-teal.vercel.app/)** — Google Docs–style real-time collaborative editor built with Next.js, Liveblocks, Lexical & TailwindCSS.  
+- **[HireElite](https://hire-elite-seven.vercel.app/)** — Full-stack job portal with recruiter dashboards, authentication, and job postings (React, Node.js, Express, MongoDB).  
+- **[CareerMind AI](https://career-mind-ai-pearl.vercel.app/)** — AI-driven career platform offering job suggestions, learning paths & interview prep.  
+
+---
+
+## 🏆 Achievements
+
+- **Oracle Cloud Infrastructure 2025 Certified Generative AI Professional**  
+- **MERN Stack Fundamentals Certification**, Great Learning (2024)  
+- **GDSC ACE Team Member** (2023–24)  
+- **Phoenix 2.0 Participant** (2024)  
+
+---
+
+## 📫 Contact
+
+📍 Mumbai, Maharashtra, India  
+📧 [captsachin8898@gmail.com](mailto:captsachin8898@gmail.com)  
+📱 +91 88282 55706  
+🌐 [Portfolio](https://sachin-prajapati.vercel)
+
 
 ---
 
