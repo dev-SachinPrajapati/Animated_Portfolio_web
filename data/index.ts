@@ -106,27 +106,27 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Threads- Full Stack Application",
-    des: "Develop Threads, Next.js 13 app that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever!",
-    img: "/thread.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/rhf.png",
-      "/mongo.png",
-      "/zod.png",
-    ],
-    link: "https://github.com/dev-SachinPrajapati/Threads",
-  },
-  {
-    id: 6,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/dev-SachinPrajapati/Animated_Portfolio_web",
   },
+  // {
+  //   id: 5,
+  //   title: "Threads- Full Stack Application",
+  //   des: "Develop Threads, Next.js 13 app that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever!",
+  //   img: "/thread.png",
+  //   iconLists: [
+  //     "/re.svg",
+  //     "/tail.svg",
+  //     "/ts.svg",
+  //     "/rhf.png",
+  //     "/mongo.png",
+  //     "/zod.png",
+  //   ],
+  //   link: "https://github.com/dev-SachinPrajapati/Threads",
+  // },
 ];
 
 export const testimonials = [
@@ -195,45 +195,21 @@ export const companies = [
   },
 ];
 
-// export const workExperience = [
-//   {
-//     id: 1,
-//     title: "Frontend Developer Intern - Neuronetic Vision",
-//     desc: "Collaborated with frontend, backend, and AI teams to build and optimize web applications using Next.js and React; designed user interfaces in Figma, integrated APIs, and supported AWS-based deployments.",
-//     className: "md:col-span-2",
-//     thumbnail: "/exp2.svg",
-//   },
-//   {
-//     id: 2,
-//     title: "Full Stack Developer Intern - Intellectsia AI Services",
-//     desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
-//     className: "md:col-span-2",
-//     thumbnail: "/exp2.svg",
-//   },
-//     {
-//     id: 3,
-//     title: "Backend Development Intern - Engaze",
-//     desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
-//     className: "md:col-span-2",
-//     thumbnail: "/exp1.svg",
-//   },
-// ];
-
 
 export const workExperience = [
   {
     id: 1,
     title: "Frontend Developer Intern - Neuronetic Vision",
     company: "Neuronetic Vision",
-    companyLink: "https://www.linkedin.com/company/neuronetic-vision/", 
-    date: "July 2025 - Present",
+    companyLink: "https://www.linkedin.com/company/neuronetic-vision/",
+    date: "July 2025 - Oct 2025",
     type: "Remote",
-    desc: "Collaborated with frontend, backend, and AI teams to build and optimize web applications using Next.js and React; designed user interfaces in Figma, integrated APIs, and supported AWS-based deployments.",
+    desc: "Contributed to the development of an AI-based surveillance MVP by building responsive and performant UIs using React.js, Next.js, and Tailwind CSS, while collaborating across teams for scalable and optimized deployment.",
     responsibilities: [
-      "Built responsive UIs with Next.js and React",
-      "Worked closely with the AI team to integrate ML-based features",
-      "Collaborated with backend and AWS team for API integration & deployments",
-      "Created design prototypes in Figma and optimized UX"
+      "Built responsive UI for AI-based surveillance MVP using React.js, Next.js, Tailwind CSS, TypeScript, GSAP, and Figma — improving load speed by 30% and SEO by 25%",
+      "Developed reusable components and scalable frontend architecture, reducing future development effort by 40%",
+      "Integrated AWS services for deployment pipelines, achieving a 95% build success rate",
+      "Collaborated with AI and backend teams to ensure smooth feature integration"
     ],
     thumbnail: "/exp1.svg",
   },
@@ -241,16 +217,15 @@ export const workExperience = [
     id: 2,
     title: "Full Stack Developer Intern - Intellectsia AI Services",
     company: "Intellectsia AI Services",
-    companyLink: "https://www.linkedin.com/company/intellectsia-ai-services/", 
+    companyLink: "https://www.linkedin.com/company/intellectsia-ai-services/",
     date: "Dec 2024 - Jan 2025",
     type: "Onsite",
-    desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance with caching strategies, designed and maintained database schemas, and collaborated with cross-functional teams to ensure scalable, secure, and responsive user experiences.",
-    // desc: "Developed full-stack web applications using Angular, Spring Boot, and SQL; optimized API performance and implemented caching strategies.",
+    desc: "Developed a full-stack MVP using Angular, Spring Boot, and MySQL; optimized API performance, improved scalability, and worked with product leads to align technical design with business goals.",
     responsibilities: [
-      "Designed and implemented RESTful APIs with Spring Boot",
-      "Enhanced SQL queries for performance optimization",
-      "Developed scalable UI components with Angular",
-      "Collaborated with cross-functional teams to deliver projects on time"
+      "Built a full-stack MVP using Angular, Spring Boot, and MySQL — delivering core product functionality on time",
+      "Designed and implemented REST APIs with 95% test coverage, improving response times by 20%",
+      "Normalized MySQL database schema, increasing query efficiency by 35% and scalability",
+      "Partnered with founders and cross-functional teams to align technical solutions with business requirements"
     ],
     thumbnail: "/exp1.svg",
   },
@@ -261,17 +236,17 @@ export const workExperience = [
     companyLink: "https://www.linkedin.com/company/engaze-in/",
     date: "Dec 2023 - Jan 2024",
     type: "Remote",
-    desc: "Built and tested RESTful APIs using Node.js and Express.js; improved backend reliability through debugging and logging tools, implemented authentication and authorization mechanisms, and worked with frontend teams to ensure seamless API integration and performance.",
-    // desc: "Built and tested RESTful APIs using Node.js and Express.js, and improved backend reliability through debugging and logging tools.",
+    desc: "Developed and optimized REST APIs using Node.js and Express.js, ensuring backend stability, reliability, and improved data flow for faster feature deployment.",
     responsibilities: [
-      "Developed secure REST APIs with Node.js & Express",
-      "Implemented logging & debugging tools for backend stability",
-      "Wrote unit tests to ensure API reliability",
-      "Tested and documented APIs using Postman for QA and debugging"
+      "Built and tested Node.js REST APIs achieving 99% uptime in QA environments",
+      "Validated and debugged APIs using Postman, resolving 10+ issues and reducing error rates by 20%",
+      "Enhanced backend stability and optimized data flow, improving feature delivery speed by 15%",
+      "Implemented logging, monitoring, and testing tools to maintain API reliability"
     ],
     thumbnail: "/exp1.svg",
   },
 ];
+
 
 
 export const learningExperience = [
